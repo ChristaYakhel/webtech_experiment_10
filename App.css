@@ -1,0 +1,101 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff7ed;
+  color: #44403c;
+}
+
+header {
+  background: #15803d;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+  min-height: 70vh;
+}
+
+.card {
+  max-width: 450px;
+  margin: 25px auto;
+  padding: 25px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px #0002;
+}
+
+h2 {
+  color: #15803d;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-top: 12px;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button, .button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px;
+  background: #16a34a;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  width: 100%;
+}
+
+.success {
+  color: #15803d;
+  text-align: center;
+  font-weight: bold;
+}
+
+footer {
+  background: #14532d;
+  color: white;
+  padding: 18px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .card {
+    padding: 18px;
+  }
+
+  nav {
+    gap: 15px;
+  }
+}
